@@ -1,6 +1,8 @@
 version: '3'
 services:
-  web: 
+  web:
+    # stdin_open: true # for windows
+    tty: true # alternative for stdin_open 
     build:
       context: .
       dockerfile: Dockerfile.dev
