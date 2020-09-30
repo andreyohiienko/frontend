@@ -1,8 +1,8 @@
 version: '3'
 services:
   web:
-    # stdin_open: true # for windows
-    tty: true # alternative for stdin_open 
+    stdin_open: true # for windows
+    # tty: true # alternative for stdin_open 
     build:
       context: .
       dockerfile: Dockerfile.dev
@@ -11,3 +11,11 @@ services:
     volumes:
     - /app/node_modules
     - .:/app
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+    - /app/node_modules
+    - .:/app
+    command: ["npm", "run", "test"]
