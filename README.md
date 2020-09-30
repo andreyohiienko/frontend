@@ -1,6 +1,7 @@
 # Frontend
 Example of Docker usage
 
+## Commands
 - ```docker build -f Dockerfile.dev . ```
 - ```docker run --rm -it -p 3000:3000 -v ${pwd}:/app CONTAINER_ID``` - should be react-scripts: not found
 - ```docker run --rm -it -p 3000:3000 -v /app/node_modules -v ${pwd}:/app CONTAINER_ID ``` - power shell
