@@ -11,4 +11,4 @@ Example of Docker usage
 - ```docker-compose up --build```
 
 ## Issues
-- [ ] tests not re-running on Windows in docker container
+- [ ] tests not re-running on Windows in docker container (works only on Enter press)
