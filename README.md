@@ -15,3 +15,6 @@ Example of Docker usage
 
 ## Issues
 - [ ] tests not re-running on Windows in docker container (works only on Enter press)
+
+## Other
+- Travis CI
