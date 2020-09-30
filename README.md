@@ -11,4 +11,4 @@ Example of Docker usage
 - ```docker-compose up --build```
 
 ## Issues
-- [ ] Jest re-run after changes doesn't work in Windows
+- [ ] tests not re-running on Windows in docker container
