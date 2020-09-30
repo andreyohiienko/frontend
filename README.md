@@ -18,3 +18,4 @@ Example of Docker usage
 
 ## Other
 - Travis CI
+- AWS deploy
