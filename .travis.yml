@@ -4,3 +4,6 @@ services:
 
 before_install:
 - cocker build -t andreyohiienko/frontend -f Dockerfile.dev .
+
+script:
+- docker run andreyohiienko/frontend npm run test -- --coverage 
