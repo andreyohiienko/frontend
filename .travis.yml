@@ -6,4 +6,4 @@ before_install:
 - docker build -t andreyohiienko/frontend -f Dockerfile.dev .
 
 script:
-- docker run andreyohiienko/frontend npm run test -- --coverage 
+- docker run andreyohiienko/frontend npm run test --env=jsdom --coverage 
