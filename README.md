@@ -19,3 +19,4 @@ Example of Docker usage
 ## Other
 - Travis CI
 - AWS deploy
+- [Use an Unnamed Builder](https://docs.docker.com/develop/develop-images/multistage-build/#name-your-build-stages)
